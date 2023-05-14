@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Bangers&family=Racing+Sans+One&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.score-container {
+    background-color: rgb(183, 0, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    width: 120px;
+    height: 25px;
+    border: 1px solid red;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    font-family: 'racing sans one';
+    font-size: 24px;
+    color:rgb(0, 153, 255);
+    text-shadow: 1px 1px 2px black;
+}
+
+.words {
+    font-family: 'racing sans one';
+    font-size: 30px;
+    color: rgb(9, 255, 0);
+    text-shadow: 1px 1px 2px black;
+}
+
+.score {
+    color: rgb(255, 123, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.score-number {
+    color: rgb(21, 255, 0);
+    text-shadow: 1px 1px 2px black;
+    font-size: 25px;
+    background: 255,255,255;
+    margin-left: 5px;
+}
+
+.questions-container {
+    max-width: 350px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns:  92% 8%;
+    justify-content: start;
+    font-family: 'racing sans one';
+    margin-bottom: 20px;
+}
+
+.names {
+    font-family: 'racing sans one';
+    color:rgb(229, 255, 0);
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0,0,0, 1);
+    margin-right: 10px;
+}
+
+.item-lines {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 16px;
+    color: rgb(109, 3, 207);
+}
+
+.input {
+    font-size: 20px;
+    font-family: 'racing sans one';
+    color: rgb(0, 0, 0);
+    width: 3.5rem;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    border-style: none;
+    background-color:#fff;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    text-shadow: 1px 1px 2px black;
+}
+
+.input:focus {
+    border-bottom: 1px solid rgb(255, 0, 221);
+}
+
+.check {
+    margin-top: 5px;
+    width: 25px;
+    visibility: hidden;
+}
+
+.translation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 30px;
+    color:rgb(234, 0, 255);
+    font-size: 20px;
+    font-family: 'racing sans one';
+    text-shadow: 1px 1px 1px black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btnListen {
+    width: 40px;
+    height: 20px;
+    margin-left: 10px;
+    background-color: #fff;
+    color: rgb(255, 102, 0);
+    border-radius: 10px;
+    font-family: 'racing sans one';
+    font-size: 12px;
+    border-style: none;
+    background-color: #fff;
+    box-shadow: inset 2px 2px 5px 1px rgba(0,0,0,0.2)
+}
+
+.btnTranslate {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background-color: #fff;
+    color: rgb(255, 0, 255);
+    border-radius: 10px;
+    font-family: 'racing sans one';
+    font-size: 12px;
+    border-style: none;
+    background-color: #fff;
+    box-shadow: inset 2px 2px 5px 1px rgba(0,0,0,0.2)
+}
