@@ -125,7 +125,7 @@ btn2Translate.addEventListener('click', function() {
 
 let input3 = document.getElementById('input3')
 let check3 = document.getElementById('check3')
-let btn3Listen = document.getElementById('btn3Listen')
+let btn3 = document.getElementById('btn3')
 let btn3Translate = document.getElementById('btn3Translate')
 
 input3.addEventListener('keyup', (e) => {
@@ -153,8 +153,8 @@ input3.addEventListener('keyup', (e) => {
     } 
 }) 
 
-btn3Listen.addEventListener('click', function() {
-    let audio = document.getElementById('sarah3')
+btn3.addEventListener('click', function() {
+    let audio = document.getElementById('sarah')
     audio.play()
     let audio2 = document.getElementById('click')
     audio2.play()
