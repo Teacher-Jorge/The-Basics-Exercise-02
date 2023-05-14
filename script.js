@@ -341,7 +341,7 @@ input7.addEventListener('keyup', (e) => {
         value++
         document.getElementById('score').innerHTML = value
         input7.disabled = true
-        document.getElementById('input7').focus()
+    
     }
 })  
 
